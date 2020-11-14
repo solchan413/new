@@ -1,0 +1,24 @@
+nav{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(180,180,180,0.983);
+    line-height: 50px; /* 줄 간격 */
+}
+
+nav > ul > li {
+    display: inline-block;
+    color: #ffffff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+    padding: 0 15px;
+}
+.dropdown-content a {
+    display: block; /* 전후에 줄바꿈 */
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
