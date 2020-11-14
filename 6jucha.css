@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+header {
+    border: 2px solid red;
+    height: 55px;
+    padding: 10px;
+}
+nav{
+    border: 2px solid blue;
+    height: 110px;
+}
+section{
+    border: 2px solid green;
+    height: 650px;
+    padding: 10px;
+}
+footer{
+    border: 2px solid rgb(180,180,180);
+    height: 55px;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
